@@ -61,7 +61,7 @@ Go to [repository](https://github.com/ahomu/Talkie)
 </template>
 
 <template layout="code" type="text/x-markdown">
-  ## in Markdown
+## in Markdown
 
 ```html
 <script layout="title" type="text/x-markdown">
@@ -83,11 +83,11 @@ Lorem ipsum dolor sit amet, consect...
 
 ```html
 <section layout
- backface="background-image.jpg"
- backface-filter="blur(1px) brightness(.8)">
+         backface="background-image.jpg"
+         backface-filter="blur(1px) brightness(.8)">
 
-<h1>Title</h1>
-<p>foo, bar, baz, qux...</p>
+  <h1>Title</h1>
+  <p>foo, bar, baz, qux...</p>
 
 </section>
 ```
@@ -132,13 +132,13 @@ talkie.prev.plug(talkie.control.key('p'));
 
 ```javascript
 window.next = function() {
-  talkie.next.push();
+talkie.next.push();
 };
 window.prev = function() {
-  talkie.prev.push();
+talkie.prev.push();
 };
 window.jump = function(num) {
-  talkie.jump.push(num);
+talkie.jump.push(num);
 };
 ```
 </template>
@@ -148,14 +148,14 @@ window.jump = function(num) {
 
 ```javascript
 /**
- * @typedef {Object} TalkieOptions
- * @property {Boolean} [api=false]
- * @property {Boolean} [wide=false]
- * @property {Boolean} [control=true]
- * @property {Boolean} [pointer=true]
- * @property {Boolean} [progress=true]
- * @property {Boolean} [backface=true]
- */
+* @typedef {Object} TalkieOptions
+* @property {Boolean} [api=false]
+* @property {Boolean} [wide=false]
+* @property {Boolean} [control=true]
+* @property {Boolean} [pointer=true]
+* @property {Boolean} [progress=true]
+* @property {Boolean} [backface=true]
+*/
 ```
 </template>
 
